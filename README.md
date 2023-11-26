@@ -1,5 +1,22 @@
-## Next.js App Router Course - Starter
+# nextjs-dashboard
+個人勉強用リポジトリ。
 
-This is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.
+教材出典：[Next.js公式 - Learn Next.js](https://nextjs.org/learn)  
+※Next.js 14系とともに公開された新しいチュートリアル。
 
-For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
+## 環境
+- TypeScript：5.2.2
+- Node.js：20.9.0
+- Next.js：14.0.2
+- Tailwind CSS：3.3.3
+
+## 環境構築
+ライブラリインストール
+```bash
+npm install
+```
+
+開発サーバ立ち上げ
+```bash
+npm run dev
+```
