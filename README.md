@@ -16,6 +16,16 @@
 npm install
 ```
 
+環境変数の準備（自分の vercel/postgres のデータベース情報を入れる）
+```bash
+cp .env.example .env
+```
+
+初期データ投入
+```bash
+npm run seed
+```
+
 開発サーバ立ち上げ
 ```bash
 npm run dev
