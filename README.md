@@ -16,7 +16,14 @@
 npm install
 ```
 
-環境変数の準備（自分の vercel/postgres のデータベース情報を入れる）
+NextAuth で使う秘密鍵を生成
+```bash
+openssl rand -base64 32
+```
+
+環境変数の準備
+- `POSTGRES_XXXXX`：自分の vercel/postgres のデータベース情報を入れる
+- `AUTH_SECRET`：上記コマンドで生成した秘密鍵
 ```bash
 cp .env.example .env
 ```
